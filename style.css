@@ -1,0 +1,21 @@
+html {
+    font-size: 16px;
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after { 
+    box-sizong: inherit;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .gif-search-form {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
