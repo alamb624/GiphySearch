@@ -8,7 +8,7 @@ for (let gif of gifData){
     let alt = gif.title;  
      html += '<img src="${url}" alt="${alt}" />';
 }
-
+document.querySelector(".js-results-section").innerHTML = html;
 
 }
 
