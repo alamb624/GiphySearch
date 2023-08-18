@@ -12,9 +12,16 @@
 </head>
     <body>
     <h1>Giphy Search</h1>
-        <form action="#" method="GET" class="d-flex justify-content-center gif-search-form">
+        <form action="#" method="GET" class="d-flex justify-content-center gif-search-form js-gif-search-form">
             <div class="m-3">
-                <input type="text" class="form-control" id="gif-content" placeholder="Topic" name="gif-content">
+                <input 
+                type="text" 
+                class="form-control" 
+                id="gif-content" 
+                placeholder="Topic" 
+                name="gif-content" 
+                required 
+            />
             </div> 
             <div class="m-3">
                 <select class="form-select" aria-label="Number of gifs" name="number-of-gifs">
