@@ -1,6 +1,6 @@
 # Giphy Search App
 
-    Host URL: 
+    Host URL: https://alamb624.github.io/GiphySearch/
 
     Searches 1-30 animated gifs based on search topic
 
