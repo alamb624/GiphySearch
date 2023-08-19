@@ -3,6 +3,7 @@ html {
     margin: 0;  
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 *, *::before, *::after { 
@@ -11,6 +12,25 @@ html {
 
 body {
     min-width: 400px;
+    background-color: black;
+    color: white;   
+}
+
+.navbar-brand {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color:white; 
+}
+
+.nav-link {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: white;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    
 }
 
 .results-section {
