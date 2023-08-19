@@ -13,3 +13,17 @@
     - Provide the number of gifs (1-30) 
 
 ```
+
+### User Stories
+
+```
+As a student
+I will search for gifs while taking a break from studying
+
+As an internet junky
+I will spend time finding new gifs based on different search topics
+
+As movie enjoyer
+I will search for gifs of my favorite movie
+
+```
