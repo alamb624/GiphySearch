@@ -9,7 +9,19 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    min-width: 400px;
+}
 
+.results-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.giphy-image {
+    margin: 20px;
+}
 
 @media screen and (max-width: 576px) {
     .gif-search-form {
