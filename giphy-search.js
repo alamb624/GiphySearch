@@ -3,10 +3,14 @@ const API_KEY = 'f28WO0B82TphBfSrQc1fS8N6h4XuDP0e';
 function renderGifs(response) {
     const gifData = response.data;
     let html = '';
-    for (let gif of gifData) {
-        let url = gif.images.fixed_height.url;
-        let alt = gif.title;  
-        html += `<img class="giphy-image" src="${url}" alt="${alt}" />`;
+    if (gifData.length === 0) {
+        html = '<div class="error">NO RESULTS, PLEASE TRY AGAIN WITH NEW ENTRY</div>';
+    } else{
+        for (let gif of gifData) {
+            let url = gif.images.fixed_height.url;
+            let alt = gif.title;  
+            html += `<img class="giphy-image" src="${url}" alt="${alt}" />`;
+        }
     }
     document.querySelector(".js-results-section").innerHTML = html;
 }
